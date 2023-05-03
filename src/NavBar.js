@@ -1,4 +1,4 @@
-function NavBar() {
+export default function NavBar() {
    return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
@@ -39,5 +39,3 @@ function NavBar() {
       </nav>
    );
 }
-
-export default NavBar;

@@ -5,7 +5,7 @@ import Content from './Routes/Content';
 import Experience from './Routes/Experience';
 import Skills from './Routes/Skills'
 import Projects from './Routes/Projects'
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 function App() {
   const NotFound = () => {
@@ -17,19 +17,19 @@ function App() {
     );
   };
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className=''>
       <NavBar/>
         <Routes>
-          <Route path='/InteractiveResume/' element={<Content/>} />
-          <Route path='/InteractiveResume/Experience' element={<Experience/>} />
-          <Route path='/InteractiveResume/Skills' element={<Skills/>} />
-          <Route path='/InteractiveResume/Projects' element={<Projects/>} />
-          <Route path='*' element={<Navigate to='/InteractiveResume/'/>} />
+          <Route path='/' element={<Content/>} />
+          <Route path='/Experience' element={<Experience/> } />
+          <Route path='/Skills' element={<Skills/>} />
+          <Route path='/Projects' element={<Projects/>} />
+          <Route path='*' element={<Navigate to='/'/>} />
         </Routes>
       <Footer />
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;

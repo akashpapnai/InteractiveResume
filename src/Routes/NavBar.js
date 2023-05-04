@@ -22,9 +22,9 @@ export default function NavBar() {
                 About My
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/Experience">Experience</a></li>
-                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/Skills">Skills</a></li>
-                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/Projects">Projects</a></li>
+                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/#/Experience">Experience</a></li>
+                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/#/Skills">Skills</a></li>
+                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/#/Projects">Projects</a></li>
                 <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item dropdown-trans-menu" href="/#">Contact Information</a></li>
               </ul>

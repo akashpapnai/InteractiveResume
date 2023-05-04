@@ -8,14 +8,6 @@ import Projects from './Routes/Projects'
 import { BrowserRouter, HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 function App() {
-  const NotFound = () => {
-    return (
-      <div>
-        <h1>404 - Page not found</h1>
-        <p>The page you are looking for does not exist.</p>
-      </div>
-    );
-  };
   return (
     <HashRouter>
     <div className=''>

@@ -12,7 +12,7 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className={`nav-link ${isHome ? 'active':''}`} aria-current="page" href="/#/">Home</a>
+              <a className={`nav-link ${isHome ? 'active':''}`} aria-current="page" href="/InteractiveResume/">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="https://akashpapnai.github.io/" target='_blank'>Other Site</a>
@@ -22,9 +22,9 @@ export default function NavBar() {
                 About My
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item dropdown-trans-menu" href="/#/Experience">Experience</a></li>
-                <li><a className="dropdown-item dropdown-trans-menu" href="/#/Skills">Skills</a></li>
-                <li><a className="dropdown-item dropdown-trans-menu" href="/#/Projects">Projects</a></li>
+                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/Experience">Experience</a></li>
+                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/Skills">Skills</a></li>
+                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/Projects">Projects</a></li>
                 <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item dropdown-trans-menu" href="/#">Contact Information</a></li>
               </ul>

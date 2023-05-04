@@ -17,7 +17,7 @@ function App() {
     );
   };
   return (
-    <HashRouter>
+    <BrowserRouter basename='InteractiveResume'>
     <div className=''>
       <NavBar/>
         <Routes>
@@ -29,7 +29,7 @@ function App() {
         </Routes>
       <Footer />
     </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 export default App;

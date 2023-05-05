@@ -1,6 +1,6 @@
 function Footer() {
   return (
-   <footer className="footer fixed-bottom bg-light text-center text-lg-start">
+   <footer className="footer fixed-bottom bg-light text-center text-lg-start" style={{minWidth:'399px'}}>
       {/* <div class="container p-4">
       <div class="row">
          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">

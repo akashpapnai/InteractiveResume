@@ -26,7 +26,7 @@ export default function NavBar() {
                 <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/#/Skills">Skills</a></li>
                 <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/#/Projects">Projects</a></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item dropdown-trans-menu" href="/#">Contact Information</a></li>
+                <li><a className="dropdown-item dropdown-trans-menu" href="/InteractiveResume/#/ContactInfo">Contact Information</a></li>
               </ul>
             </li>
             <li className="nav-item">

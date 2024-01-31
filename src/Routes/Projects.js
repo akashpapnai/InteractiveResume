@@ -15,6 +15,7 @@ export default function Projects() {
                <div className="card-body">
                   <h5 className="card-title"><span>Hospital Business</span></h5>
                   <p className="card-text">Asp.Net Practice Project</p>
+                  <p className='card-text'>Use Username: <b>userrandom</b> and Password: <b>123456789</b></p>
                </div>
                </div>
             </div>

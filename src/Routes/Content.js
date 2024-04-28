@@ -3,7 +3,7 @@ import moment from 'moment';
 
 export default function Content() {
    const today = new Date();
-   const secondStart = moment('2022-08-04');
+   const secondStart = moment('2022-04-04');
    const todayDate = moment(`${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`)
    const diffInMonths = moment('2022-04-07').diff(moment('2021-09-07'), 'months') + todayDate.diff(secondStart,'months');
    return(

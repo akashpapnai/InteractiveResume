@@ -15,7 +15,7 @@ export default function NavBar() {
               <a className={`nav-link ${isHome ? 'active':''}`} aria-current="page" href="/InteractiveResume/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://akashpapnai.github.io/" target='_blank'>Other Site</a>
+              {/* <a className="nav-link" href="https://akashpapnai.github.io/" target='_blank'>Other Site</a> */}
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -30,7 +30,7 @@ export default function NavBar() {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">This site is in Development phase</a>
+              {/* <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">This site is in Development phase</a> */}
             </li>
           </ul>
           {/* <form className="d-flex">

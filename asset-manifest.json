@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/InteractiveResume/static/css/main.9387892c.css",
-    "main.js": "/InteractiveResume/static/js/main.8f0a8ca8.js",
-    "static/js/787.9c74c3a3.chunk.js": "/InteractiveResume/static/js/787.9c74c3a3.chunk.js",
+    "main.css": "/InteractiveResume/static/css/main.6582b194.css",
+    "main.js": "/InteractiveResume/static/js/main.195745e3.js",
+    "static/js/453.7075c873.chunk.js": "/InteractiveResume/static/js/453.7075c873.chunk.js",
     "index.html": "/InteractiveResume/index.html",
-    "main.9387892c.css.map": "/InteractiveResume/static/css/main.9387892c.css.map",
-    "main.8f0a8ca8.js.map": "/InteractiveResume/static/js/main.8f0a8ca8.js.map",
-    "787.9c74c3a3.chunk.js.map": "/InteractiveResume/static/js/787.9c74c3a3.chunk.js.map"
+    "main.6582b194.css.map": "/InteractiveResume/static/css/main.6582b194.css.map",
+    "main.195745e3.js.map": "/InteractiveResume/static/js/main.195745e3.js.map",
+    "453.7075c873.chunk.js.map": "/InteractiveResume/static/js/453.7075c873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9387892c.css",
-    "static/js/main.8f0a8ca8.js"
+    "static/css/main.6582b194.css",
+    "static/js/main.195745e3.js"
   ]
 }

@@ -4,7 +4,7 @@ function SkillsBars() {
    const [widths, setWidths] = useState({
       cSharpWidth: 0,
       cppWidth: 0,
-      pythonWidth: 0,
+      typeScriptWidth: 0,
       jsWidth: 0,
       jQueryWidth: 0,
       htmlCssWidth: 0,
@@ -17,13 +17,13 @@ function SkillsBars() {
       const initialWidths = {
          cSharpWidth: 80,
          cppWidth: 90,
-         pythonWidth: 90,
+         typeScriptWidth: 90,
          jsWidth: 75,
          jQueryWidth: 80,
          htmlCssWidth: 100,
          dotnetWidth: 85,
          bootstrapWidth: 80,
-         angularWidth: 50
+         angularWidth: 80
       };
 
       const timeout = setTimeout(() => {
@@ -52,9 +52,9 @@ function SkillsBars() {
                </div>
             </div>
             <div className="col-md-6">
-               <h5><span>Python</span></h5>
+               <h5><span>TypeScript</span></h5>
                <div className="progress">
-               <div className="progress-bar" role="progressbar" style={{width: `${widths.pythonWidth}%`,transition: "width 1s ease-in-out"}} aria-valuemin="0" aria-valuemax="100"></div>
+               <div className="progress-bar" role="progressbar" style={{width: `${widths.typeScriptWidth}%`,transition: "width 1s ease-in-out"}} aria-valuemin="0" aria-valuemax="100"></div>
                </div>
             </div>
             <div className="col-md-6">

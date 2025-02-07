@@ -24,15 +24,6 @@ export default function Skills() {
                </div>
                </div>
             </div>
-            <div className="col hover-zoom d-flex justify-content-center align-items-center" style={{minWidth:`${cardSize}px`}}>
-               <div className="card h-100">
-               <img src={process.env.PUBLIC_URL + '/Skills/python.png'} className="allImg card-img-top img-fluid p-4" alt="Python" />
-               <div className="card-body">
-                  <h5 className="card-title"><span>Python</span></h5>
-                  <p className="card-text">For Productivity</p>
-               </div>
-               </div>
-            </div>
          </div>
 
          <h2 className="d-flex justify-content-center align-items-center m-4">Frameworks</h2>
